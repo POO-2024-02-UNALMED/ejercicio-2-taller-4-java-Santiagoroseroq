@@ -18,21 +18,20 @@ public class ObjTaller4B {
         System.out.println("double : " + funcion(d));
         System.out.println("float : " + funcion(f));
     }
-        
-//  static String funcion(short a) {
-//      return "Entra a short: " + a;
-//  }
-    static String funcion (int a) {
-        return "Entra a int: " + a;
-        }
+          //static String funcion(short a) {
+             // return "Entra a short: " + a;
+          //}
+        //static String funcion (int a) {
+        //return "Entra a int: " + a;
+        //}
         
     static String funcion (double a) {
-        return "Entra a double: " + a;
+       return "Entra a double: " + a;
         }
         
-//  static String funcion (float a) {
-//      return "Entra a float: " + a;
-//  }
+  //static String funcion (float a) {
+  //return "Entra a float: " + a;
+// }
 }
         
 /**
