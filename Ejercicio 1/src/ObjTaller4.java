@@ -8,14 +8,10 @@ public class ObjTaller4 {
             personas[i] = new Persona(nombres[i]);
         }
         
-        Vehiculo auto = new Vehiculo("ABC-306", Motor.ELECTRICO, personas[4]);
-        
-        Vehiculo auto2 = new Vehiculo("TXT-452", Motor.GASOLINA);
-        
         personas[0] = null;
         personas[1] = personas[2];
         personas[4] = null;
         personas[3].finalize();
-        System.out.println(personas[3]);
+        System.out.println(personas[1]);
     }
 }
